@@ -24,7 +24,7 @@ public class BlockArgument implements ArgumentType<Pair<Integer, Integer>> {
     private static final Collection<String> EXAMPLES = Arrays.asList("diamond_ore", "gold_ore", "nether_quartz_ore");
 
     public static final Map<String, Pair<Integer, Integer>> BLOCKS = ImmutableMap.<String, Pair<Integer, Integer>>builder()
-        .put("ancient_debris", Pair.of(Cubiomes.ANCIENT_DEBRIS(), MapColor.TERRACOTTA_BROWN.col))
+        .put("ancient_debris", Pair.of(Cubiomes.ANCIENT_DEBRIS(), MapColor.COLOR_MAGENTA.col))
         .put("andesite", Pair.of(Cubiomes.ANDESITE(), MapColor.STONE.col))
         .put("basalt", Pair.of(Cubiomes.BASALT(), MapColor.COLOR_BLACK.col))
         .put("blackstone", Pair.of(Cubiomes.BLACKSTONE(), MapColor.COLOR_BLACK.col))
